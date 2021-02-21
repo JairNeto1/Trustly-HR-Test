@@ -8,7 +8,8 @@
 <p align="center">
 <img src= "src/assets/images/Trustly HR Test.gif" width=35%
 </p>
-  # PayWithMyBank
+  
+# PayWithMyBank
 
 Trustly Technical Challenge for Developers
 
