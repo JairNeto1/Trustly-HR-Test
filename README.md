@@ -77,10 +77,7 @@ The challenges:
 
 To test this project you will need node installed. Clone this repository, install dependencies (npm i), run the code (code .), and check in the browser (npm start).
 
-Thank you for this opportunity! ❤
 
-Best regards
-Jair Neto
 
-![print-1](https://user-images.githubusercontent.com/65511670/98154175-25f93380-1eb3-11eb-9f41-7908fdf54b36.jpg)
-![print-2](https://user-images.githubusercontent.com/65511670/98154177-2691ca00-1eb3-11eb-8401-5fcfe63bda8f.jpg)
+
+
