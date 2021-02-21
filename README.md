@@ -4,9 +4,8 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/JairNeto1/netflix-clone)
 ![GitHub top language](https://img.shields.io/github/languages/top/JairNeto1/netflix-clone)
 
-
 <p align="center">
-<img src= "src/assets/images/Trustly HR Test.gif" width=42%
+<img src= "src/assets/images/Trustly HR Test.gif" width=40%
 </p>
   
 ## PayWithMyBank
@@ -21,7 +20,7 @@ The challenge:
 
 ## Usability flow
 
-### First page, Products:
+#### First page, Products:
 
 - User can filter products by name (case insensitive);
 - Choose one of the products;
@@ -51,12 +50,6 @@ The challenge:
 - User can go back to first page;
 - Place order button is not implemented.
 
-### Technologies:
-
-- Javascript, HTML, CSS.
-
-### Framework:
-
 ### React, only functional components with hooks.
 
 - useState and useContext for state control;
@@ -64,19 +57,10 @@ The challenge:
 - useHistory and React Router for navigation;
 - useEffect for component lifecycle control.
 
-Libraries:
+####Libraries:
 
 - Styled Components;
 - React Router.
-
-The challenges:
-
-- Integration with the SDK was a nice challenge.
-  What could be better:
-- Tests;
-- Desktop responsiveness.
-
-To test this project you will need node installed. Clone this repository, install dependencies (npm i), run the code (code .), and check in the browser (npm start).
 
 
 
