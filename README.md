@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+![GitHub repo size](https://img.shields.io/github/repo-size/JairNeto1/netflix-clone)
+![GitHub](https://img.shields.io/github/license/JairNeto1/netflix-clone)
+![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FJairMonteiro)
+![GitHub language count](https://img.shields.io/github/languages/count/JairNeto1/netflix-clone)
+![GitHub top language](https://img.shields.io/github/languages/top/JairNeto1/netflix-clone)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<p align="center">
+<img src= "src/assets/images/Trustly HR Test.gif" width=35%
+</p>
+  # PayWithMyBank
 
-In the project directory, you can run:
+Trustly Technical Challenge for Developers
 
-### `npm start`
+Public domain to check the application, ⚠ [mobile first, link](http://trustly-shoes-on.s3-website-us-east-1.amazonaws.com/) ⚠
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The challenge:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- This is a test for a Front-End Engineer position at Trustly. You'll need to develop a simple checkout process of an e-commerce application in which the user will be able to buy one single product and pay using Trustly as the payment method.
 
-### `npm test`
+# Usability flow
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### First page, Products:
 
-### `npm run build`
+- User can filter products by name (case insensitive);
+- Choose one of the products;
+- Choose its size;
+- Button "Add to cart" takes the app to the next page.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Second page, Checkout:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- The details about the chosen product are shown;
+- User can delete this product from the cart and start over;
+- For the payments methods, user can only chose "Online banking" in this app;
+- If user tries a different payment method, an alert will pop-up on the screen;
+- "Confirm" button takes the app to the next page.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Third page, Bank Selection:
 
-### `npm run eject`
+- When page is mounted, a SDK is authenticated and a server-side function is called;
+- Now the user is interacting with a external application (PayWithMyBank);
+- If the transaction is concluded, it will take the user to the final page;
+- If not, one alert will pop-up on the screen and the user can choose a bank again or go back.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Final page, Receipt:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- User can see the order summary;
+- Payment method used;
+- Total amount;
+- User can go back to first page;
+- Place order button is not implemented.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Technologies:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Javascript, HTML, CSS.
 
-## Learn More
+## Framework:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### React, only functional components with hooks.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- useState and useContext for state control;
+- useLocation for conditional rendering based on the page;
+- useHistory and React Router for navigation;
+- useEffect for component lifecycle control.
 
-### Code Splitting
+Libraries:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Styled Components;
+- React Router.
 
-### Analyzing the Bundle Size
+The challenges:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Integration with the SDK was a nice challenge.
+  What could be better:
+- Tests;
+- Desktop responsiveness.
 
-### Making a Progressive Web App
+To test this project you will need node installed. Clone this repository, install dependencies (npm i), run the code (code .), and check in the browser (npm start).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Thank you for this opportunity! ❤
 
-### Advanced Configuration
+Best regards
+Jair Neto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![print-1](https://user-images.githubusercontent.com/65511670/98154175-25f93380-1eb3-11eb-9f41-7908fdf54b36.jpg)
+![print-2](https://user-images.githubusercontent.com/65511670/98154177-2691ca00-1eb3-11eb-8401-5fcfe63bda8f.jpg)
