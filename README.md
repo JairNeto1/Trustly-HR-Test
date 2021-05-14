@@ -10,13 +10,13 @@
   
 ## PayWithMyBank
 
-Trustly Technical Challenge for Developers
+```Trustly Technical Challenge for Developers
 
 Public domain to check the application, ⚠ [mobile first, link](http://trustly-shoes-on.s3-website-us-east-1.amazonaws.com/) ⚠
 
 The challenge:
 
-- This is a test for a Front-End Engineer position at Trustly. You'll need to develop a simple checkout process of an e-commerce application in which the user will be able to buy one single product and pay using Trustly as the payment method.
+- This is a test for a Front-End Engineer position at Trustly. You'll need to develop a simple checkout process of an e-commerce application in which the user will be able to buy one single product and pay using Trustly as the payment method.```
 
 ## Usability flow
 
