@@ -8,7 +8,7 @@
 <img src= "src/assets/images/Trustly HR Test.gif" width=40%
 </p>
   
-## PayWithMyBank
+## PayWithMyBank / Trustly
 
 ```Trustly Technical Challenge for Developers
 
@@ -65,8 +65,3 @@ The challenge:
 
 - Styled Components;
 - React Router.
-
-
-
-
-
